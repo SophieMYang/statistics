@@ -1,0 +1,421 @@
+Table of Contents
+Main Survey - Section 0 - Record Identification
+
+_state:State Fips Code
+fmonth:File Month
+idate:Interview Date
+imonth:Interview Month
+iday:Interview Day
+iyear:Interview Year
+dispcode:Final Disposition
+seqno:Annual Sequence Number
+_psu:Primary Sampling Unit
+ctelenum:Correct Telephone Number?
+pvtresd1:Private Residence?
+colghous:Do You Live In College Housing?
+stateres:Resident Of State
+cellfon3:Cellular Telephone
+ladult:Are You 18 Years Of Age Or Older?
+numadult:Number Of Adults In Household
+nummen:Number Of Adult Men In Household
+numwomen:Number Of Adult Women In Household
+Main Survey - Section 1 - Health Status
+
+genhlth:General Health
+Main Survey - Section 2 - Healthy Days - Health-Related Quality of Life
+
+physhlth:Number Of Days Physical Health Not Good
+menthlth:Number Of Days Mental Health Not Good
+poorhlth:Poor Physical Or Mental Health
+Main Survey - Section 3 - Health Care Access
+
+hlthpln1:Have Any Health Care Coverage
+persdoc2:Multiple Health Care Professionals
+medcost:Could Not See Dr. Because Of Cost
+checkup1:Length Of Time Since Last Routine Checkup
+Main Survey - Section 4 - Inadequate Sleep
+
+sleptim1:How Much Time Do You Sleep
+Main Survey - Section 5 - Hypertension Awareness
+
+bphigh4:Ever Told Blood Pressure High
+bpmeds:Currently Taking Blood Pressure Medication
+Main Survey - Section 6 - Cholesterol Awareness
+
+bloodcho:Ever Had Blood Cholesterol Checked
+cholchk:How Long Since Cholesterol Checked
+toldhi2:Ever Told Blood Cholesterol High
+Main Survey - Section 7 - Chronic Health Conditions
+
+cvdinfr4:Ever Diagnosed With Heart Attack
+cvdcrhd4:Ever Diagnosed With Angina Or Coronary Heart Disease
+cvdstrk3:Ever Diagnosed With A Stroke
+asthma3:Ever Told Had Asthma
+asthnow:Still Have Asthma
+chcscncr:(Ever Told) You Had Skin Cancer?
+chcocncr:(Ever Told) You Had Any Other Types Of Cancer?
+chccopd1:(Ever Told) You Have (Copd) Chronic Obstructive Pulmonary Disease, Emphysema Or
+havarth3:Told Have Arthritis
+addepev2:Ever Told You Had A Depressive Disorder
+chckidny:(Ever Told) You Have Kidney Disease?
+diabete3:(Ever Told) You Have Diabetes
+Main Survey - Section 8 - Demographics
+
+veteran3:Are You A Veteran
+marital:Marital Status
+children:Number Of Children In Household
+educa:Education Level
+employ1:Employment Status
+income2:Income Level
+weight2:Reported Weight In Pounds
+height3:Reported Height In Feet And Inches
+numhhol2:Household Telephones
+numphon2:Residential Phones
+cpdemo1:Do You Have A Cell Phone For Personal Use?
+cpdemo4:What Percent Of All Calls Are Received On Your Cell Phone?
+internet:Internet Use In The Past 30 Days?
+renthom1:Own Or Rent Home
+sex:Respondents Sex
+pregnant:Pregnancy Status
+qlactlm2:Activity Limitation Due To Health Problems
+useequip:Health Problems Requiring Special Equipment
+blind:Blind Or Difficulty Seeing
+decide:Difficulty Concentrating Or Remembering
+diffwalk:Difficulty Walking Or Climbing Stairs
+diffdres:Difficulty Dressing Or Bathing
+diffalon:Difficulty Doing Errands Alone
+Main Survey - Section 9 - Tobacco Use
+
+smoke100:Smoked At Least 100 Cigarettes
+smokday2:Frequency Of Days Now Smoking
+stopsmk2:Stopped Smoking In Past 12 Months
+lastsmk2:Interval Since Last Smoked
+usenow3:Use Of Smokeless Tobacco Products
+Main Survey - Section 10 - Alcohol Consumption
+
+alcday5:Days In Past 30 Had Alcoholic Beverage
+avedrnk2:Avg Alcoholic Drinks Per Day In Past 30
+drnk3ge5:Binge Drinking
+maxdrnks:Most Drinks On Single Occasion Past 30 Days
+Main Survey - Section 11 - Fruits and Vegetables
+
+fruitju1:How Many Times Did You Drink 100 Percent Pure Fruit Juices?
+fruit1:How Many Times Did You Eat Fruit?
+fvbeans:How Many Times Did You Eat Beans Or Lentils?
+fvgreen:How Many Times Did You Eat Dark Green Vegetables?
+fvorang:How Many Times Did You Eat Orange-Colored Vegetables?
+vegetab1:How Many Times Did You Eat Other Vegetables?
+Main Survey - Section 12 - Exercise (Physical Activity)
+
+exerany2:Exercise In Past 30 Days
+exract11:Type Of Physical Activity
+exeroft1:How Many Times Walking, Running, Jogging, Or Swimming
+exerhmm1:Minutes Or Hours Walking, Running, Jogging, Or Swimming
+exract21:Other Type Of Physical Activity Giving Most Exercise During Past Month
+exeroft2:How Many Times Walking, Running, Jogging, Or Swimming
+exerhmm2:Minutes Or Hours Walking, Running, Jogging, Or Swimming
+strength:How Many Times Did You Do Physical Activities Or Exercises To Strengthen Your Mu
+Main Survey - Section 13 - Arthritis Burden
+
+lmtjoin3:Limited Because Of Joint Symptoms
+arthdis2:Does Arthritis Affect Whether You Work
+arthsocl:Social Activities Limited Because Of Joint Symptoms
+joinpain:How Bad Was Joint Pain
+Main Survey - Section 14 - Seatbelt Use
+
+seatbelt:How Often Use Seatbelts In Car?
+Main Survey - Section 15 - Immunization
+
+flushot6:Adult Flu Shot/Spray Past 12 Mos
+flshtmy2:When Received Most Recent Seasonal Flu Shot/Spray
+tetanus:Received Tetanus Shot Since 2005?
+pneuvac3:Pneumonia Shot Ever
+Main Survey - Section 16 - HIV/AIDS
+
+hivtst6:Ever Tested HIV
+hivtstd3:Month And Year Of Last HIV Test
+whrtst10:Location Of Last HIV Test
+Optional Module 1 - Pre-Diabetes
+
+pdiabtst:Had A Test For High Blood Sugar In Past Three Years
+prediab1:Ever Been Told You Have Pre-Diabetes Or Borderline Diabetes
+Optional Module 2 - Diabetes
+
+diabage2:Age When Told Diabetic
+insulin:Now Taking Insulin
+bldsugar:How Often Check Blood For Glucose
+feetchk2:How Often Check Feet For Sores Or Irritations
+doctdiab:Times Seen Health Professional For Diabetes
+chkhemo3:Times Checked For Glycosylated Hemoglobin
+feetchk:Times Feet Check For Sores/Irritations
+eyeexam:Last Eye Exam Where Pupils Were Dilated
+diabeye:Ever Told Diabetes Has Affected Eyes
+diabedu:Ever Taken Class In Managing Diabetes
+Optional Module 3 - Healthy Days (Symptoms)
+
+painact2:How Many Days Hard To Do Usual Activities In Past 30 Days
+qlmentl2:How Many Days Depressed In Past 30 Days
+qlstres2:How Many Days Felt Anxious In Past 30 Days
+qlhlth2:How Many Days Full Of Energy In Past 30 Days
+Optional Module 4 - Health Care Access
+
+medicare:Do You Have Medicare?
+hlthcvrg:Health Insurance Coverage
+delaymed:Delayed Getting Medical Care
+dlyother:Delayed Getting Medical Care Other Response
+nocov121:Without Health Care Coverage Past 12 Months
+lstcovrg:Time Since Last Had Health Care Coverage
+drvisits:Doctor Visits Past 12 Months
+medscost:Could Not Get Medicine Due To Cost
+carercvd:Satisfied With Care Received
+medbills:Currently Have Medical Bills
+Optional Module 5 - Sugar Drinks
+
+ssbsugar:How Often Do You Drink Regular Soda Or Pop?
+ssbfrut2:How Often Did You Drink Sugar-Sweetened Drinks?
+Optional Module 6 - Sodium or Salt-Related Behavior
+
+wtchsalt:Watching Sodium Or Salt Intake
+longwtch:How Long Watching Salt/Sodium Intake
+dradvise:Doctor Advised Reduced Sodium/Salt Intake
+Optional Module 7 - Adult Asthma History
+
+asthmage:Age At Asthma Diagnosis
+asattack:Asthma During Past 12 Months
+aservist:Emergency Asthma Care During Past 12 Months
+asdrvist:Urgent Asthma Treatment During Past 12 Months
+asrchkup:Routine Asthma Care During Past 12 Months
+asactlim:Activities Limited Due To Asthma During Past 12 Months
+asymptom:Asthma Symptoms During Past 30 Days
+asnoslep:Sleep Difficulty Due To Asthma During Past 30 Days
+asthmed3:Days Used Prescribed Preventative Asthma Med In Past 30 Days
+asinhalr:Times Used Asthma Inhaler During An Attack In Past 30 Days
+Optional Module 8 - Cardiovascular Health
+
+harehab1:Outpatient Rehab After Heart Attack Hosp Stay
+strehab1:Outpatient Rehab After Hosp Stay For Stroke
+cvdasprn:Take Aspirin Daily Or Every Other Day
+aspunsaf:Health Makes Taking Aspirin Unsafe
+rlivpain:Take Aspirin To Relieve Pain
+rduchart:Take Aspirin To Reduce Chance Of Heart Attack
+rducstrk:Take Aspirin To Reduce Chance Of Stroke
+Optional Module 9 - Arthritis Management
+
+arttoday:What Can You Do Because Of Arthritis Or Joint Symptoms
+arthwgt:Dr. Suggest Lose Weight For Arthritis Or Joint Symptoms
+arthexer:Dr. Suggest Use Of Physical Activity Or Exercise For Arthritis Or Joint Symptoms
+arthedu:Ever Taken Class In Managing Arthritis Or Joint Symptoms
+Optional Module 10 - Influenza
+
+imfvplac:Where Did You Get Your Last Flu Shot/Vaccine?
+Optional Module 11 - Adult Human Papilloma Virus (HPV)
+
+hpvadvc2:Ever Had The HPV Vaccination?
+hpvadsht:Number Of HPV Shots Received
+Optional Module 12 - Breast and Cervical Cancer Screening
+
+hadmam:Have You Ever Had A Mammogram
+howlong:How Long Since Last Mammogram
+profexam:Ever Had Breast Physical Exam By Doctor
+lengexam:How Long Since Last Breast Physical Exam
+hadpap2:Ever Had A Pap Test
+lastpap2:How Long Since Last Pap Test
+hadhyst2:Had Hysterectomy
+Optional Module 13 - Colorectal Cancer Screening
+
+bldstool:Ever Had Blood Stool Test Using Home Kit
+lstblds3:Time Since Last Blood Stool Test
+hadsigm3:Ever Had Sigmoidoscopy/Colonoscopy
+hadsgco1:Was Last Test A Sigmoidoscopy Or Colonoscopy
+lastsig3:Time Since Last Sigmoidoscopy/Colonoscopy
+Optional Module 14 - Prostate Cancer Screening
+
+pcpsaad2:Has A Health Professional Ever Talked With You About The Advantages Of The PSA Test
+pcpsadi1:Has A Health Professional Ever Talked With You About The Disadvantages Of The PSA Test
+pcpsare1:Has A Doctor Ever Recommended That You Have A PSA Test?
+psatest1:Ever Had PSA Test
+psatime:Time Since Last PSA Test
+pcpsars1:What Was The Main Reason You Had This PSA Test?
+Optional Module 15 - Prostate Cancer Screening Decision Making Module
+
+pcpsade1:Why Was PSA Test Done?
+pcdmdecn:Who Made The Decision With You To Have PSA Test?
+Optional Module 16 - Reactions to Race
+
+rrclass2:How Do Other People Usually Classify You In This Country?
+rrcognt2:How Often Do You Think About Your Race?
+rratwrk2:How Do You Feel You Were Treated At Work Compared To People Of Other Races In Pa
+rrhcare3:When Seeking Health Care Past 12 Months, Was Experience Worse, Same, Better Than
+rrphysm2:Times Past 30 Days Felt Physical Symptoms Because Of Treatment Due To Your Race
+rremtsm2:Times Past 30 Days Felt Emotionally Upset Because Of Treatment Due To Your Race
+Optional Module 17 - Mental Illness and Stigma
+
+misnervs:How Often Feel Nervous Past 30 Days
+mishopls:How Often Feel Hopeless Past 30 Days
+misrstls:How Often Feel Restless Past 30 Days
+misdeprd:How Often Feel Depressed Past 30 Days
+miseffrt:How Often Feel Everything Was An Effort Past 30 Days
+miswtles:How Often Feel Worthless Past 30 Days
+misnowrk:Emotional Problem Kept You From Doing Work Past 30 Days
+mistmnt:Receiving Medicine Or Treatment From Health Pro For Emotional Problem
+mistrhlp:Mental Health Treatment Can Help People Lead Normal Life
+misphlpf:People Are Generally Caring Toward People With Mental Illness
+Optional Module 19 - Social Context
+
+scntmony:Times Past 12 Months Worried/Stressed About Having Enough Money To Pay Your Rent
+scntmeal:Times Past 12 Months Worried/Stressed About Having Enough Money To Buy Nutritiou
+scntpaid:How Are You Generally Paid For The Work You Do
+scntwrk1:How Many Hours Per Week Do You Work
+scntlpad:How Were You Generally Paid For The Work You Did
+scntlwk1:How Many Hours Per Week Did You Work
+scntvot1:Did You Vote In The Last Presidential Election?
+Optional Module 20 - Random Child Selection
+
+rcsgendr:Gender Of Child
+rcsrltn2:Relationship To Child
+Optional Module 21 - Childhood Asthma Prevalence
+
+casthdx2:Hlth Pro Ever Said Child Has Asthma
+casthno2:Child Still Have Asthma?
+Optional Module 22 - Emotional Support and Life Satisfaction
+
+emtsuprt:How Often Get Emotional Support Needed
+lsatisfy:Satisfaction With Life
+Cell Phone Introduction
+
+ctelnum1:Correct Phone Number?
+cellfon2:Is This A Cellular Telephone?
+cadult:Are You 18 Years Of Age Or Older?
+pvtresd2:Do You Live In A Private Residence?
+cclghous:Do You Live In College Housing?
+cstate:Are You A Resident Of [State]?
+landline:Do You Also Have A Landline Telephone?
+pctcell:What Percent Of Your Calls Are Received On Your Cell Phone?
+Questionnaire Version
+
+qstver:Questionnaire Version Identifier
+Questionnaire Language
+
+qstlang:Language Identifier
+Weighting Variables
+
+mscode:Metropolitan Status Code
+_ststr:Sample Design Stratification Variable
+_strwt:Stratum Weight
+_rawrake:Raw Weighting Factor Used In Raking
+_wt2rake:Design Weight Used In Raking
+_imprace:Imputed Race/Ethnicity Value
+_impnph:Imputed Number Of Phones
+_impeduc:Imputed Education Level
+_impmrtl:Imputed Marital Status
+_imphome:Imputed Rent Or Own Home Status
+Child Demographic Variables
+
+_chispnc:Child Hispanic, Latino/A, Or Spanish Origin Calculated Variable
+_crace1:Child Non-Hispanic Race Including Multiracial
+_impcage:Imputed Child Age
+_impcrac:Imputed Child Race/Ethnicity
+_impcsex:Imputed Child Gender
+_cllcpwt:Final Child Weight:Land-Line And Cell-Phone Data
+Weighting Variables (2)
+
+_dualuse:Dual Phone Use Categories
+_dualcor:Dual Phone Use Correction Factor
+_llcpwt2:Truncated Design Weight Used In Adult Combined Land Line And Cell Phone Raking
+_llcpwt:Final Weight:Land-Line And Cell-Phone Data
+Calculated Variables
+
+_rfhlth:Adults With Good Or Better Health
+_hcvu651:Respondents Aged 18-64 With Health Care Coverage
+_rfhype5:High Blood Pressure Calculated Variable
+_cholchk:Cholesterol Checked Calculated Variable
+_rfchol:High Cholesterol Calculated Variable
+_ltasth1:Lifetime Asthma Calculated Variable
+_casthm1:Current Asthma Calculated Variable
+_asthms1:Computed Asthma Status
+_drdxar1:Respondents Diagnosed With Arthritis
+_prace1:Computed Preferred Race
+_mrace1:Calculated Non-Hispanic Race Including Multiracial
+_hispanc:Hispanic, Latino/A, Or Spanish Origin Calculated Variable
+_race:Computed Race-Ethnicity Grouping
+_raceg21:Computed Non-Hispanic Whites/All Others Race Categories Race/Ethnic Group Codes
+_racegr3:Computed Five Level Race/Ethnicity Category.
+_race_g1:Computed Race Groups Used For Internet Prevalence Tables
+_ageg5yr:Reported Age In Five-Year Age Categories Calculated Variable
+_age65yr:Reported Age In Two Age Groups Calculated Variable
+_age_g:Imputed Age In Six Groups
+htin4:Computed Height In Inches
+htm4:Computed Height In Meters
+wtkg3:Computed Weight In Kilograms
+_bmi5:Computed Body Mass Index
+_bmi5cat:Computed Body Mass Index Categories
+_rfbmi5:Overweight Or Obese Calculated Variable
+_chldcnt:Computed Number Of Children In Household
+_educag:Computed Level Of Education Completed Categories
+_incomg:Computed Income Categories
+_smoker3:Computed Smoking Status
+_rfsmok3:Current Smoking Calculated Variable
+drnkany5:Drink Any Alcoholic Beverages In Past 30 Days
+drocdy3_:Computed Drink-Occasions-Per-Day
+_rfbing5:Binge Drinking Calculated Variable
+_drnkdy4:Computed Number Of Drinks Of Alcohol Beverages Per Day
+_drnkmo4:Computed Total Number Drinks A Month
+_rfdrhv4:Heavy Alcohol Consumption Calculated Variable
+_rfdrmn4:Adult Men Heavy Alcohol Consumption Calculated Variable
+_rfdrwm4:Adult Women Heavy Alcohol Consumption Calculated Variable
+ftjuda1_:Computed Fruit Juice Intake In Times Per Day
+frutda1_:Computed Fruit Intake In Times Per Day
+beanday_:Computed Bean Intake In Times Per Day
+grenday_:Computed Dark Green Vegetable Intake In Times Per Day
+orngday_:Computed Orange-Colored Vegetable Intake In Times Per Day
+vegeda1_:Computed Vegetable Intake In Times Per Day
+_misfrtn:The Number Of Missing Fruit Responses
+_misvegn:The Number Of Missing Vegetable Responses
+_frtresp:Missing Any Fruit Responses
+_vegresp:Missing Any Vegetable Responses
+_frutsum:Total Fruits Consumed Per Day
+_vegesum:Total Vegetables Consumed Per Day
+_frtlt1:Consume Fruit 1 Or More Times Per Day
+_veglt1:Consume Vegetables 1 Or More Times Per Day
+_frt16:Reported Consuming Fruit >16/Day
+_veg23:Reported Consuming Vegetables >23/Day
+_fruitex:Fruit Exclusion From Analyses
+_vegetex:Vegetable Exclusion From Analyses
+_totinda:Leisure Time Physical Activity Calculated Variable
+metvl11_:Activity Met Value For First Activity
+metvl21_:Activity Met Value For Second Activity
+maxvo2_:Estimated Age-Gender Specific Maximum Oxygen Consumption
+fc60_:Estimated Functional Capacity
+actin11_:Estimated Activity Intensity For First Activity
+actin21_:Estimated Activity Intensity For Second Activity
+padur1_:Minutes Of First Activity
+padur2_:Minutes Of Second Activity
+pafreq1_:Physical Activity Frequency Per Week For First Activity
+pafreq2_:Physical Activity Frequency Per Week For Second Activity
+_minac11:Minutes Of Physical Activity Per Week For First Activity
+_minac21:Minutes Of Physical Activity Per Week For Second Activity
+strfreq_:Strength Activity Frequency Per Week
+pamiss1_:Missing Physical Activity Data
+pamin11_:Minutes Of Physical Activity Per Week For First Activity
+pamin21_:Minutes Of Physical Activity Per Week For Second Activity
+pa1min_:Minutes Of Total Physical Activity Per Week
+pavig11_:Minutes Of Vigorous Physical Activity Per Week For First Activity
+pavig21_:Minutes Of Vigorousphysical Activity Per Week For Second Activity
+pa1vigm_:Minutes Of Total Vigorous Physical Activity Per Week
+_pacat1:Physical Activity Categories
+_paindx1:Physical Activity Index
+_pa150r2:150 Minute Physical Activity Calculated Variable
+_pa300r2:300 Minute Physical Activity Calculated Variable
+_pa30021:300 Minute Physical Activity 2-Level Calculated Variable
+_pastrng:Muscle Strengthening Recommendation
+_parec1:Aerobic And Strengthening Guideline
+_pastae1:Aerobic And Strengthening (2-Level)
+_lmtact1:Limited Usual Activities
+_lmtwrk1:Limited Work Activities
+_lmtscl1:Limited Social Activities
+_rfseat2:Always Or Nearly Always Wear Seat Belts
+_rfseat3:Always Wear Seat Belts
+_flshot6:Flu Shot Calculated Variable
+_pneumo2:Pneumonia Vaccination Calculated Variable
+_aidtst3:Ever Been Tested For HIV Calculated Variable
+_age80:Imputed Age Value Collapsed Above 80
