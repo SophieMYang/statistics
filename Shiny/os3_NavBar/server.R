@@ -21,6 +21,38 @@ library(smyStats)
 
 data_sets <- list.files(here('data'))
 
+modNavbarMenuUI <- function(id) {
+    ns <- NS(id)
+    
+    navbarMenu('Wip' 
+               ,tabPanel('Wip Panel'
+                         ,sidebarLayout(sidebarPanel('Wip SideBar')
+                                        ,mainPanel(tabsetPanel( tabPanel('Wip Tab1'
+                                                                         ,plotOutput ("Wip_Plot1")
+                                                                         ,tableOutput('Wip_tbl1')
+                                        )
+                                        , tabPanel('Wip Tab2'
+                                                   ,plotOutput ("Wip_Plot2")
+                                                   ,tableOutput('Wip_tbl2')
+                                        )
+                                        ) # tabsetPanel
+                                        ,'WIP Main Panel'
+                                        ) # mainPanel
+                         ) # sidebarLayout
+               ) # tabPanel
+    ) # navbarMenu
+}
+
+modNavbarMenu <- function (input, output, session) {
+    output$pop.dist <- renderPlot ({
+        dat<-data.frame(x=c(-3*input$mu + input$mean,3*input$mu + input$mean))
+        ggplot(dat,aes(x))+stat_function(fun=dnorm,n=input$sample_size,args=list(mean=input$mean,sd=input$mu))+
+            scale_y_continuous(breaks=NULL)
+    })
+}
+
+
+
 
 shinyServer(function(input, output) {
 # begin reactive definitions

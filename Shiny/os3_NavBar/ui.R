@@ -102,4 +102,5 @@ navbarPage("OS3"
                                  ) # sidebarLayout
                        ) # tabPanel
            ) # navbarMenu
+          ,modNavbarMenuUI('test')
 ) #end of navbarPage
