@@ -1,0 +1,33 @@
+---
+title: "OS3-Issues"
+author: "Sophie Yang"
+date: "April 22, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Issues
+
+*  tabPanel('Statistical Tests',includeHTML(here('html','Statistical_Test_FlowCharts.html'))) hangs
+
+
+## Resolved Issues
+
+*  Rendering RMD documents with code blocks show the code blocks without results.
+
+    *  IncludeMarkdown("file.rmd") is processed as a markdown package which transforms it into HTML.  It is not an .Rmd file and the code is not executed by knitr.
+
+*  Rendering HTML generated from a RMD document does not process r code blocks.  The 
+    
+    Examples  
+    
+    *  ui:tabPanel('html', uiOutput('html'))
+    *  servier:includeHTML(here('html','Statistical_Test_FlowCharts.html'))
+    
+    Resolution
+    1.  Snip the graphic and save it in the images folder.
+    2.  set the r block options: results='hide', echo = FALSE
+    3.  Add a link to the image. `![](../images/imagename.PNG)`

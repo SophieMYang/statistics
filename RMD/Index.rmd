@@ -1,0 +1,58 @@
+---
+title: "Index"
+author: "Sophie Yang"
+date: "April 22, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+appname <- 'oc3'
+```
+## awk
+
+The awk directory contains utility awk scripts.  Currently none of these scripts are not called from the `r appname`.
+
+
+
+## Data
+
+The data directory contains datasets available to the `r appname` application.  The `r appname` application requires each dataset have an associated table of contents RMD file, named *_toc.rmd.  See RMD section for more details.
+
+File              |Description                   |Link
+------------------|------------------------------|----------
+brfss2013.rdata   |                              |
+gss.rdata         |General Social Survey (GSS)   |(gss)[http://www.gss.norc.org/]
+
+
+## man
+
+File              |Description
+------------------|----------------------------------------
+
+## R
+
+File              |Description
+------------------|----------------------------------------
+
+## RMD 
+
+The RMD directory contains R markdown RMD files used in the `r appname` application to explain concepts.
+
+The exceptions are the \*_toc.rmd files.  These files consist of a single table describing the dataset file.  The table must have three columns named, Seq, Column, and Description.  The datasets usually have a Codebook associated with them and the \*_toc information is typically near the beginning of the Codebook. Each dataset has a different layout.  The `toc.awk` script can be modified to create the \*_toc files.
+
+File              |Description
+------------------|----------------------------------------
+brfss2013_toc.rmd |brfss2013 dataset table of contents RMD table.                              
+gss_toc.rmd       |gss dataset table of contents RMD table.
+index.rmd         |This file
+Statistical_Terms_and_Formulas.rmd|A table of statistical terms and formulas
+Statistical_Test_FlowCharts.rmd|Decision trees for deciding which statistical inference method to use.
+
+## shiny
+
+File              |Description
+------------------|----------------------------------------
+
+

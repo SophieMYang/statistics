@@ -1,0 +1,13 @@
+Seq|Column|Description
+---|------|------------
+1|mpg|mpg:no-desc
+2|cyl|cyl:no-desc
+3|disp|disp:no-desc
+4|hp|hp:no-desc
+5|drat|drat:no-desc
+6|wt|wt:no-desc
+7|qsec|qsec:no-desc
+8|vs|vs:no-desc
+9|am|am:no-desc
+10|gear|gear:no-desc
+11|carb|carb:no-desc

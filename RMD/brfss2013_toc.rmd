@@ -1,0 +1,332 @@
+Section or Module|Seq|Column|CodeBook|Description
+---------------------------------------------------------|---|---------|--------|-----------------------------------------------------
+Section 0 - Record Identification|1|X_state|_state|State Fips Code
+Section 0 - Record Identification|2|fmonth|fmonth|File Month
+Section 0 - Record Identification|3|idate|idate|Interview Date
+Section 0 - Record Identification|4|imonth|imonth|Interview Month
+Section 0 - Record Identification|5|iday|iday|Interview Day
+Section 0 - Record Identification|6|iyear|iyear|Interview Year
+Section 0 - Record Identification|7|dispcode|dispcode|Final Disposition
+Section 0 - Record Identification|8|seqno|seqno|Annual Sequence Number
+Section 0 - Record Identification|9|X_psu|_psu|Primary Sampling Unit
+Section 0 - Record Identification|10|ctelenum|ctelenum|Correct Telephone Number?
+Section 0 - Record Identification|11|pvtresd1|pvtresd1|Private Residence?
+Section 0 - Record Identification|12|colghous|colghous|Do You Live In College Housing?
+Section 0 - Record Identification|13|stateres|stateres|Resident Of State
+Section 0 - Record Identification|14|cellfon3|cellfon3|Cellular Telephone
+Section 0 - Record Identification|15|ladult|ladult|Are You 18 Years Of Age Or Older?
+Section 0 - Record Identification|16|numadult|numadult|Number Of Adults In Household
+Section 0 - Record Identification|17|nummen|nummen|Number Of Adult Men In Household
+Section 0 - Record Identification|18|numwomen|numwomen|Number Of Adult Women In Household
+Section 1 - Health Status|19|genhlth|genhlth|General Health
+Section 2 - Healthy Days - Health-Related Quality of Life|20|physhlth|physhlth|Number Of Days Physical Health Not Good
+Section 2 - Healthy Days - Health-Related Quality of Life|21|menthlth|menthlth|Number Of Days Mental Health Not Good
+Section 2 - Healthy Days - Health-Related Quality of Life|22|poorhlth|poorhlth|Poor Physical Or Mental Health
+Section 3 - Health Care Access|23|hlthpln1|hlthpln1|Have Any Health Care Coverage
+Section 3 - Health Care Access|24|persdoc2|persdoc2|Multiple Health Care Professionals
+Section 3 - Health Care Access|25|medcost|medcost|Could Not See Dr. Because Of Cost
+Section 3 - Health Care Access|26|checkup1|checkup1|Length Of Time Since Last Routine Checkup
+Section 4 - Inadequate Sleep|27|sleptim1|sleptim1|How Much Time Do You Sleep
+Section 5 - Hypertension Awareness|28|bphigh4|bphigh4|Ever Told Blood Pressure High
+Section 5 - Hypertension Awareness|29|bpmeds|bpmeds|Currently Taking Blood Pressure Medication
+Section 6 - Cholesterol Awareness|30|bloodcho|bloodcho|Ever Had Blood Cholesterol Checked
+Section 6 - Cholesterol Awareness|31|cholchk|cholchk|How Long Since Cholesterol Checked
+Section 6 - Cholesterol Awareness|32|toldhi2|toldhi2|Ever Told Blood Cholesterol High
+Section 7 - Chronic Health Conditions|33|cvdinfr4|cvdinfr4|Ever Diagnosed With Heart Attack
+Section 7 - Chronic Health Conditions|34|cvdcrhd4|cvdcrhd4|Ever Diagnosed With Angina Or Coronary Heart Disease
+Section 7 - Chronic Health Conditions|35|cvdstrk3|cvdstrk3|Ever Diagnosed With A Stroke
+Section 7 - Chronic Health Conditions|36|asthma3|asthma3|Ever Told Had Asthma
+Section 7 - Chronic Health Conditions|37|asthnow|asthnow|Still Have Asthma
+Section 7 - Chronic Health Conditions|38|chcscncr|chcscncr|(Ever Told) You Had Skin Cancer?
+Section 7 - Chronic Health Conditions|39|chcocncr|chcocncr|(Ever Told) You Had Any Other Types Of Cancer?
+Section 7 - Chronic Health Conditions|40|chccopd1|chccopd1|(Ever Told) You Have (Copd) Chronic Obstructive Pulmonary Disease, Emphysema Or
+Section 7 - Chronic Health Conditions|41|havarth3|havarth3|Told Have Arthritis
+Section 7 - Chronic Health Conditions|42|addepev2|addepev2|Ever Told You Had A Depressive Disorder
+Section 7 - Chronic Health Conditions|43|chckidny|chckidny|(Ever Told) You Have Kidney Disease?
+Section 7 - Chronic Health Conditions|44|diabete3|diabete3|(Ever Told) You Have Diabetes
+Section 8 - Demographics|45|veteran3|veteran3|Are You A Veteran
+Section 8 - Demographics|46|marital|marital|Marital Status
+Section 8 - Demographics|47|children|children|Number Of Children In Household
+Section 8 - Demographics|48|educa|educa|Education Level
+Section 8 - Demographics|49|employ1|employ1|Employment Status
+Section 8 - Demographics|50|income2|income2|Income Level
+Section 8 - Demographics|51|weight2|weight2|Reported Weight In Pounds
+Section 8 - Demographics|52|height3|height3|Reported Height In Feet And Inches
+Section 8 - Demographics|53|numhhol2|numhhol2|Household Telephones
+Section 8 - Demographics|54|numphon2|numphon2|Residential Phones
+Section 8 - Demographics|55|cpdemo1|cpdemo1|Do You Have A Cell Phone For Personal Use?
+Section 8 - Demographics|56|cpdemo4|cpdemo4|What Percent Of All Calls Are Received On Your Cell Phone?
+Section 8 - Demographics|57|internet|internet|Internet Use In The Past 30 Days?
+Section 8 - Demographics|58|renthom1|renthom1|Own Or Rent Home
+Section 8 - Demographics|59|sex|sex|Respondents Sex
+Section 8 - Demographics|60|pregnant|pregnant|Pregnancy Status
+Section 8 - Demographics|61|qlactlm2|qlactlm2|Activity Limitation Due To Health Problems
+Section 8 - Demographics|62|useequip|useequip|Health Problems Requiring Special Equipment
+Section 8 - Demographics|63|blind|blind|Blind Or Difficulty Seeing
+Section 8 - Demographics|64|decide|decide|Difficulty Concentrating Or Remembering
+Section 8 - Demographics|65|diffwalk|diffwalk|Difficulty Walking Or Climbing Stairs
+Section 8 - Demographics|66|diffdres|diffdres|Difficulty Dressing Or Bathing
+Section 8 - Demographics|67|diffalon|diffalon|Difficulty Doing Errands Alone
+Section 9 - Tobacco Use|68|smoke100|smoke100|Smoked At Least 100 Cigarettes
+Section 9 - Tobacco Use|69|smokday2|smokday2|Frequency Of Days Now Smoking
+Section 9 - Tobacco Use|70|stopsmk2|stopsmk2|Stopped Smoking In Past 12 Months
+Section 9 - Tobacco Use|71|lastsmk2|lastsmk2|Interval Since Last Smoked
+Section 9 - Tobacco Use|72|usenow3|usenow3|Use Of Smokeless Tobacco Products
+Section 10 - Alcohol Consumption|73|alcday5|alcday5|Days In Past 30 Had Alcoholic Beverage
+Section 10 - Alcohol Consumption|74|avedrnk2|avedrnk2|Avg Alcoholic Drinks Per Day In Past 30
+Section 10 - Alcohol Consumption|75|drnk3ge5|drnk3ge5|Binge Drinking
+Section 10 - Alcohol Consumption|76|maxdrnks|maxdrnks|Most Drinks On Single Occasion Past 30 Days
+Section 11 - Fruits and Vegetables|77|fruitju1|fruitju1|How Many Times Did You Drink 100 Percent Pure Fruit Juices?
+Section 11 - Fruits and Vegetables|78|fruit1|fruit1|How Many Times Did You Eat Fruit?
+Section 11 - Fruits and Vegetables|79|fvbeans|fvbeans|How Many Times Did You Eat Beans Or Lentils?
+Section 11 - Fruits and Vegetables|80|fvgreen|fvgreen|How Many Times Did You Eat Dark Green Vegetables?
+Section 11 - Fruits and Vegetables|81|fvorang|fvorang|How Many Times Did You Eat Orange-Colored Vegetables?
+Section 11 - Fruits and Vegetables|82|vegetab1|vegetab1|How Many Times Did You Eat Other Vegetables?
+Section 12 - Exercise (Physical Activity)|83|exerany2|exerany2|Exercise In Past 30 Days
+Section 12 - Exercise (Physical Activity)|84|exract11|exract11|Type Of Physical Activity
+Section 12 - Exercise (Physical Activity)|85|exeroft1|exeroft1|How Many Times Walking, Running, Jogging, Or Swimming
+Section 12 - Exercise (Physical Activity)|86|exerhmm1|exerhmm1|Minutes Or Hours Walking, Running, Jogging, Or Swimming
+Section 12 - Exercise (Physical Activity)|87|exract21|exract21|Other Type Of Physical Activity Giving Most Exercise During Past Month
+Section 12 - Exercise (Physical Activity)|88|exeroft2|exeroft2|How Many Times Walking, Running, Jogging, Or Swimming
+Section 12 - Exercise (Physical Activity)|89|exerhmm2|exerhmm2|Minutes Or Hours Walking, Running, Jogging, Or Swimming
+Section 12 - Exercise (Physical Activity)|90|strength|strength|How Many Times Did You Do Physical Activities Or Exercises To Strengthen Your Mu
+Section 13 - Arthritis Burden|91|lmtjoin3|lmtjoin3|Limited Because Of Joint Symptoms
+Section 13 - Arthritis Burden|92|arthdis2|arthdis2|Does Arthritis Affect Whether You Work
+Section 13 - Arthritis Burden|93|arthsocl|arthsocl|Social Activities Limited Because Of Joint Symptoms
+Section 13 - Arthritis Burden|94|joinpain|joinpain|How Bad Was Joint Pain
+Section 14 - Seatbelt Use|95|seatbelt|seatbelt|How Often Use Seatbelts In Car?
+Section 15 - Immunization|96|flushot6|flushot6|Adult Flu Shot/Spray Past 12 Mos
+Section 15 - Immunization|97|flshtmy2|flshtmy2|When Received Most Recent Seasonal Flu Shot/Spray
+Section 15 - Immunization|98|tetanus|tetanus|Received Tetanus Shot Since 2005?
+Section 15 - Immunization|99|pneuvac3|pneuvac3|Pneumonia Shot Ever
+Section 16 - HIV/AIDS|100|hivtst6|hivtst6|Ever Tested HIV
+Section 16 - HIV/AIDS|101|hivtstd3|hivtstd3|Month And Year Of Last HIV Test
+Section 16 - HIV/AIDS|102|whrtst10|whrtst10|Location Of Last HIV Test
+Module 1 - Pre-Diabetes|103|pdiabtst|pdiabtst|Had A Test For High Blood Sugar In Past Three Years
+Module 1 - Pre-Diabetes|104|prediab1|prediab1|Ever Been Told You Have Pre-Diabetes Or Borderline Diabetes
+Module 2 - Diabetes|105|diabage2|diabage2|Age When Told Diabetic
+Module 2 - Diabetes|106|insulin|insulin|Now Taking Insulin
+Module 2 - Diabetes|107|bldsugar|bldsugar|How Often Check Blood For Glucose
+Module 2 - Diabetes|108|feetchk2|feetchk2|How Often Check Feet For Sores Or Irritations
+Module 2 - Diabetes|109|doctdiab|doctdiab|Times Seen Health Professional For Diabetes
+Module 2 - Diabetes|110|chkhemo3|chkhemo3|Times Checked For Glycosylated Hemoglobin
+Module 2 - Diabetes|111|feetchk|feetchk|Times Feet Check For Sores/Irritations
+Module 2 - Diabetes|112|eyeexam|eyeexam|Last Eye Exam Where Pupils Were Dilated
+Module 2 - Diabetes|113|diabeye|diabeye|Ever Told Diabetes Has Affected Eyes
+Module 2 - Diabetes|114|diabedu|diabedu|Ever Taken Class In Managing Diabetes
+Module 3 - Healthy Days (Symptoms)|115|painact2|painact2|How Many Days Hard To Do Usual Activities In Past 30 Days
+Module 3 - Healthy Days (Symptoms)|116|qlmentl2|qlmentl2|How Many Days Depressed In Past 30 Days
+Module 3 - Healthy Days (Symptoms)|117|qlstres2|qlstres2|How Many Days Felt Anxious In Past 30 Days
+Module 3 - Healthy Days (Symptoms)|118|qlhlth2|qlhlth2|How Many Days Full Of Energy In Past 30 Days
+Module 4 - Health Care Access|119|medicare|medicare|Do You Have Medicare?
+Module 4 - Health Care Access|120|hlthcvrg|hlthcvrg|Health Insurance Coverage
+Module 4 - Health Care Access|121|delaymed|delaymed|Delayed Getting Medical Care
+Module 4 - Health Care Access|122|dlyother|dlyother|Delayed Getting Medical Care Other Response
+Module 4 - Health Care Access|123|nocov121|nocov121|Without Health Care Coverage Past 12 Months
+Module 4 - Health Care Access|124|lstcovrg|lstcovrg|Time Since Last Had Health Care Coverage
+Module 4 - Health Care Access|125|drvisits|drvisits|Doctor Visits Past 12 Months
+Module 4 - Health Care Access|126|medscost|medscost|Could Not Get Medicine Due To Cost
+Module 4 - Health Care Access|127|carercvd|carercvd|Satisfied With Care Received
+Module 4 - Health Care Access|128|medbills|medbills|Currently Have Medical Bills
+Module 5 - Sugar Drinks|129|ssbsugar|ssbsugar|How Often Do You Drink Regular Soda Or Pop?
+Module 5 - Sugar Drinks|130|ssbfrut2|ssbfrut2|How Often Did You Drink Sugar-Sweetened Drinks?
+Module 6 - Sodium or Salt-Related Behavior|131|wtchsalt|wtchsalt|Watching Sodium Or Salt Intake
+Module 6 - Sodium or Salt-Related Behavior|132|longwtch|longwtch|How Long Watching Salt/Sodium Intake
+Module 6 - Sodium or Salt-Related Behavior|133|dradvise|dradvise|Doctor Advised Reduced Sodium/Salt Intake
+Module 7 - Adult Asthma History|134|asthmage|asthmage|Age At Asthma Diagnosis
+Module 7 - Adult Asthma History|135|asattack|asattack|Asthma During Past 12 Months
+Module 7 - Adult Asthma History|136|aservist|aservist|Emergency Asthma Care During Past 12 Months
+Module 7 - Adult Asthma History|137|asdrvist|asdrvist|Urgent Asthma Treatment During Past 12 Months
+Module 7 - Adult Asthma History|138|asrchkup|asrchkup|Routine Asthma Care During Past 12 Months
+Module 7 - Adult Asthma History|139|asactlim|asactlim|Activities Limited Due To Asthma During Past 12 Months
+Module 7 - Adult Asthma History|140|asymptom|asymptom|Asthma Symptoms During Past 30 Days
+Module 7 - Adult Asthma History|141|asnoslep|asnoslep|Sleep Difficulty Due To Asthma During Past 30 Days
+Module 7 - Adult Asthma History|142|asthmed3|asthmed3|Days Used Prescribed Preventative Asthma Med In Past 30 Days
+Module 7 - Adult Asthma History|143|asinhalr|asinhalr|Times Used Asthma Inhaler During An Attack In Past 30 Days
+Module 8 - Cardiovascular Health|144|harehab1|harehab1|Outpatient Rehab After Heart Attack Hosp Stay
+Module 8 - Cardiovascular Health|145|strehab1|strehab1|Outpatient Rehab After Hosp Stay For Stroke
+Module 8 - Cardiovascular Health|146|cvdasprn|cvdasprn|Take Aspirin Daily Or Every Other Day
+Module 8 - Cardiovascular Health|147|aspunsaf|aspunsaf|Health Makes Taking Aspirin Unsafe
+Module 8 - Cardiovascular Health|148|rlivpain|rlivpain|Take Aspirin To Relieve Pain
+Module 8 - Cardiovascular Health|149|rduchart|rduchart|Take Aspirin To Reduce Chance Of Heart Attack
+Module 8 - Cardiovascular Health|150|rducstrk|rducstrk|Take Aspirin To Reduce Chance Of Stroke
+Module 9 - Arthritis Management|151|arttoday|arttoday|What Can You Do Because Of Arthritis Or Joint Symptoms
+Module 9 - Arthritis Management|152|arthwgt|arthwgt|Dr. Suggest Lose Weight For Arthritis Or Joint Symptoms
+Module 9 - Arthritis Management|153|arthexer|arthexer|Dr. Suggest Use Of Physical Activity Or Exercise For Arthritis Or Joint Symptoms
+Module 9 - Arthritis Management|154|arthedu|arthedu|Ever Taken Class In Managing Arthritis Or Joint Symptoms
+Module 10 - Influenza|155|imfvplac|imfvplac|Where Did You Get Your Last Flu Shot/Vaccine?
+Module 11 - Adult Human Papilloma Virus (HPV)|156|hpvadvc2|hpvadvc2|Ever Had The HPV Vaccination?
+Module 11 - Adult Human Papilloma Virus (HPV)|157|hpvadsht|hpvadsht|Number Of HPV Shots Received
+Module 12 - Breast and Cervical Cancer Screening|158|hadmam|hadmam|Have You Ever Had A Mammogram
+Module 12 - Breast and Cervical Cancer Screening|159|howlong|howlong|How Long Since Last Mammogram
+Module 12 - Breast and Cervical Cancer Screening|160|profexam|profexam|Ever Had Breast Physical Exam By Doctor
+Module 12 - Breast and Cervical Cancer Screening|161|lengexam|lengexam|How Long Since Last Breast Physical Exam
+Module 12 - Breast and Cervical Cancer Screening|162|hadpap2|hadpap2|Ever Had A Pap Test
+Module 12 - Breast and Cervical Cancer Screening|163|lastpap2|lastpap2|How Long Since Last Pap Test
+Module 12 - Breast and Cervical Cancer Screening|164|hadhyst2|hadhyst2|Had Hysterectomy
+Module 13 - Colorectal Cancer Screening|165|bldstool|bldstool|Ever Had Blood Stool Test Using Home Kit
+Module 13 - Colorectal Cancer Screening|166|lstblds3|lstblds3|Time Since Last Blood Stool Test
+Module 13 - Colorectal Cancer Screening|167|hadsigm3|hadsigm3|Ever Had Sigmoidoscopy/Colonoscopy
+Module 13 - Colorectal Cancer Screening|168|hadsgco1|hadsgco1|Was Last Test A Sigmoidoscopy Or Colonoscopy
+Module 13 - Colorectal Cancer Screening|169|lastsig3|lastsig3|Time Since Last Sigmoidoscopy/Colonoscopy
+Module 14 - Prostate Cancer Screening|170|pcpsaad2|pcpsaad2|Has A Health Professional Ever Talked With You About The Advantages Of The PSA Test
+Module 14 - Prostate Cancer Screening|171|pcpsadi1|pcpsadi1|Has A Health Professional Ever Talked With You About The Disadvantages Of The PSA Test
+Module 14 - Prostate Cancer Screening|172|pcpsare1|pcpsare1|Has A Doctor Ever Recommended That You Have A PSA Test?
+Module 14 - Prostate Cancer Screening|173|psatest1|psatest1|Ever Had PSA Test
+Module 14 - Prostate Cancer Screening|174|psatime|psatime|Time Since Last PSA Test
+Module 14 - Prostate Cancer Screening|175|pcpsars1|pcpsars1|What Was The Main Reason You Had This PSA Test?
+Module 15 - Prostate Cancer Screening Decision Making Module|176|pcpsade1|pcpsade1|Why Was PSA Test Done?
+Module 15 - Prostate Cancer Screening Decision Making Module|177|pcdmdecn|pcdmdecn|Who Made The Decision With You To Have PSA Test?
+Module 16 - Reactions to Race|178|rrclass2|rrclass2|How Do Other People Usually Classify You In This Country?
+Module 16 - Reactions to Race|179|rrcognt2|rrcognt2|How Often Do You Think About Your Race?
+Module 16 - Reactions to Race|180|rratwrk2|rratwrk2|How Do You Feel You Were Treated At Work Compared To People Of Other Races In Pa
+Module 16 - Reactions to Race|181|rrhcare3|rrhcare3|When Seeking Health Care Past 12 Months, Was Experience Worse, Same, Better Than
+Module 16 - Reactions to Race|182|rrphysm2|rrphysm2|Times Past 30 Days Felt Physical Symptoms Because Of Treatment Due To Your Race
+Module 16 - Reactions to Race|183|rremtsm2|rremtsm2|Times Past 30 Days Felt Emotionally Upset Because Of Treatment Due To Your Race
+Module 17 - Mental Illness and Stigma|184|misnervs|misnervs|How Often Feel Nervous Past 30 Days
+Module 17 - Mental Illness and Stigma|185|mishopls|mishopls|How Often Feel Hopeless Past 30 Days
+Module 17 - Mental Illness and Stigma|186|misrstls|misrstls|How Often Feel Restless Past 30 Days
+Module 17 - Mental Illness and Stigma|187|misdeprd|misdeprd|How Often Feel Depressed Past 30 Days
+Module 17 - Mental Illness and Stigma|188|miseffrt|miseffrt|How Often Feel Everything Was An Effort Past 30 Days
+Module 17 - Mental Illness and Stigma|189|miswtles|miswtles|How Often Feel Worthless Past 30 Days
+Module 17 - Mental Illness and Stigma|190|misnowrk|misnowrk|Emotional Problem Kept You From Doing Work Past 30 Days
+Module 17 - Mental Illness and Stigma|191|mistmnt|mistmnt|Receiving Medicine Or Treatment From Health Pro For Emotional Problem
+Module 17 - Mental Illness and Stigma|192|mistrhlp|mistrhlp|Mental Health Treatment Can Help People Lead Normal Life
+Module 17 - Mental Illness and Stigma|193|misphlpf|misphlpf|People Are Generally Caring Toward People With Mental Illness
+Module 19 - Social Context|194|scntmony|scntmony|Times Past 12 Months Worried/Stressed About Having Enough Money To Pay Your Rent
+Module 19 - Social Context|195|scntmeal|scntmeal|Times Past 12 Months Worried/Stressed About Having Enough Money To Buy Nutritiou
+Module 19 - Social Context|196|scntpaid|scntpaid|How Are You Generally Paid For The Work You Do
+Module 19 - Social Context|197|scntwrk1|scntwrk1|How Many Hours Per Week Do You Work
+Module 19 - Social Context|198|scntlpad|scntlpad|How Were You Generally Paid For The Work You Did
+Module 19 - Social Context|199|scntlwk1|scntlwk1|How Many Hours Per Week Did You Work
+Module 19 - Social Context|200|scntvot1|scntvot1|Did You Vote In The Last Presidential Election?
+Module 20 - Random Child Selection|201|rcsgendr|rcsgendr|Gender Of Child
+Module 20 - Random Child Selection|202|rcsrltn2|rcsrltn2|Relationship To Child
+Module 21 - Childhood Asthma Prevalence|203|casthdx2|casthdx2|Hlth Pro Ever Said Child Has Asthma
+Module 21 - Childhood Asthma Prevalence|204|casthno2|casthno2|Child Still Have Asthma?
+Module 22 - Emotional Support and Life Satisfaction|205|emtsuprt|emtsuprt|How Often Get Emotional Support Needed
+Module 22 - Emotional Support and Life Satisfaction|206|lsatisfy|lsatisfy|Satisfaction With Life
+Module 22 - Emotional Support and Life Satisfaction|207|ctelnum1|ctelnum1|Correct Phone Number?
+Module 22 - Emotional Support and Life Satisfaction|208|cellfon2|cellfon2|Is This A Cellular Telephone?
+Module 22 - Emotional Support and Life Satisfaction|209|cadult|cadult|Are You 18 Years Of Age Or Older?
+Module 22 - Emotional Support and Life Satisfaction|210|pvtresd2|pvtresd2|Do You Live In A Private Residence?
+Module 22 - Emotional Support and Life Satisfaction|211|cclghous|cclghous|Do You Live In College Housing?
+Module 22 - Emotional Support and Life Satisfaction|212|cstate|cstate|Are You A Resident Of [State]?
+Module 22 - Emotional Support and Life Satisfaction|213|landline|landline|Do You Also Have A Landline Telephone?
+Module 22 - Emotional Support and Life Satisfaction|214|pctcell|pctcell|What Percent Of Your Calls Are Received On Your Cell Phone?
+Module 22 - Emotional Support and Life Satisfaction|215|qstver|qstver|Questionnaire Version Identifier
+Module 22 - Emotional Support and Life Satisfaction|216|qstlang|qstlang|Language Identifier
+Module 22 - Emotional Support and Life Satisfaction|217|mscode|mscode|Metropolitan Status Code
+Module 22 - Emotional Support and Life Satisfaction|218|X_ststr|_ststr|Sample Design Stratification Variable
+Module 22 - Emotional Support and Life Satisfaction|219|X_strwt|_strwt|Stratum Weight
+Module 22 - Emotional Support and Life Satisfaction|220|X_rawrake|_rawrake|Raw Weighting Factor Used In Raking
+Module 22 - Emotional Support and Life Satisfaction|221|X_wt2rake|_wt2rake|Design Weight Used In Raking
+Module 22 - Emotional Support and Life Satisfaction|222|X_imprace|_imprace|Imputed Race/Ethnicity Value
+Module 22 - Emotional Support and Life Satisfaction|223|X_impnph|_impnph|Imputed Number Of Phones
+Module 22 - Emotional Support and Life Satisfaction|224|X_impeduc|_impeduc|Imputed Education Level
+Module 22 - Emotional Support and Life Satisfaction|225|X_impmrtl|_impmrtl|Imputed Marital Status
+Module 22 - Emotional Support and Life Satisfaction|226|X_imphome|_imphome|Imputed Rent Or Own Home Status
+Module 22 - Emotional Support and Life Satisfaction|227|X_chispnc|_chispnc|Child Hispanic, Latino/A, Or Spanish Origin Calculated Variable
+Module 22 - Emotional Support and Life Satisfaction|228|X_crace1|_crace1|Child Non-Hispanic Race Including Multiracial
+Module 22 - Emotional Support and Life Satisfaction|229|X_impcage|_impcage|Imputed Child Age
+Module 22 - Emotional Support and Life Satisfaction|230|X_impcrac|_impcrac|Imputed Child Race/Ethnicity
+Module 22 - Emotional Support and Life Satisfaction|231|X_impcsex|_impcsex|Imputed Child Gender
+Module 22 - Emotional Support and Life Satisfaction|232|X_cllcpwt|_cllcpwt|Final Child Weight
+Module 22 - Emotional Support and Life Satisfaction|233|X_dualuse|_dualuse|Dual Phone Use Categories
+Module 22 - Emotional Support and Life Satisfaction|234|X_dualcor|_dualcor|Dual Phone Use Correction Factor
+Module 22 - Emotional Support and Life Satisfaction|235|X_llcpwt2|_llcpwt2|Truncated Design Weight Used In Adult Combined Land Line And Cell Phone Raking
+Module 22 - Emotional Support and Life Satisfaction|236|X_llcpwt|_llcpwt|Final Weight
+Module 22 - Emotional Support and Life Satisfaction|237|X_rfhlth|_rfhlth|Adults With Good Or Better Health
+Module 22 - Emotional Support and Life Satisfaction|238|X_hcvu651|_hcvu651|Respondents Aged 18-64 With Health Care Coverage
+Module 22 - Emotional Support and Life Satisfaction|239|X_rfhype5|_rfhype5|High Blood Pressure Calculated Variable
+Module 22 - Emotional Support and Life Satisfaction|240|X_cholchk|_cholchk|Cholesterol Checked Calculated Variable
+Module 22 - Emotional Support and Life Satisfaction|241|X_rfchol|_rfchol|High Cholesterol Calculated Variable
+Module 22 - Emotional Support and Life Satisfaction|242|X_ltasth1|_ltasth1|Lifetime Asthma Calculated Variable
+Module 22 - Emotional Support and Life Satisfaction|243|X_casthm1|_casthm1|Current Asthma Calculated Variable
+Module 22 - Emotional Support and Life Satisfaction|244|X_asthms1|_asthms1|Computed Asthma Status
+Module 22 - Emotional Support and Life Satisfaction|245|X_drdxar1|_drdxar1|Respondents Diagnosed With Arthritis
+Module 22 - Emotional Support and Life Satisfaction|246|X_prace1|_prace1|Computed Preferred Race
+Module 22 - Emotional Support and Life Satisfaction|247|X_mrace1|_mrace1|Calculated Non-Hispanic Race Including Multiracial
+Module 22 - Emotional Support and Life Satisfaction|248|X_hispanc|_hispanc|Hispanic, Latino/A, Or Spanish Origin Calculated Variable
+Module 22 - Emotional Support and Life Satisfaction|249|X_race|_race|Computed Race-Ethnicity Grouping
+Module 22 - Emotional Support and Life Satisfaction|250|X_raceg21|_raceg21|Computed Non-Hispanic Whites/All Others Race Categories Race/Ethnic Group Codes
+Module 22 - Emotional Support and Life Satisfaction|251|X_racegr3|_racegr3|Computed Five Level Race/Ethnicity Category.
+Module 22 - Emotional Support and Life Satisfaction|252|X_race_g1|_race_g1|Computed Race Groups Used For Internet Prevalence Tables
+Module 22 - Emotional Support and Life Satisfaction|253|X_ageg5yr|_ageg5yr|Reported Age In Five-Year Age Categories Calculated Variable
+Module 22 - Emotional Support and Life Satisfaction|254|X_age65yr|_age65yr|Reported Age In Two Age Groups Calculated Variable
+Module 22 - Emotional Support and Life Satisfaction|255|X_age_g|_age_g|Imputed Age In Six Groups
+Module 22 - Emotional Support and Life Satisfaction|256|htin4|htin4|Computed Height In Inches
+Module 22 - Emotional Support and Life Satisfaction|257|htm4|htm4|Computed Height In Meters
+Module 22 - Emotional Support and Life Satisfaction|258|wtkg3|wtkg3|Computed Weight In Kilograms
+Module 22 - Emotional Support and Life Satisfaction|259|X_bmi5|_bmi5|Computed Body Mass Index
+Module 22 - Emotional Support and Life Satisfaction|260|X_bmi5cat|_bmi5cat|Computed Body Mass Index Categories
+Module 22 - Emotional Support and Life Satisfaction|261|X_rfbmi5|_rfbmi5|Overweight Or Obese Calculated Variable
+Module 22 - Emotional Support and Life Satisfaction|262|X_chldcnt|_chldcnt|Computed Number Of Children In Household
+Module 22 - Emotional Support and Life Satisfaction|263|X_educag|_educag|Computed Level Of Education Completed Categories
+Module 22 - Emotional Support and Life Satisfaction|264|X_incomg|_incomg|Computed Income Categories
+Module 22 - Emotional Support and Life Satisfaction|265|X_smoker3|_smoker3|Computed Smoking Status
+Module 22 - Emotional Support and Life Satisfaction|266|X_rfsmok3|_rfsmok3|Current Smoking Calculated Variable
+Module 22 - Emotional Support and Life Satisfaction|267|drnkany5|drnkany5|Drink Any Alcoholic Beverages In Past 30 Days
+Module 22 - Emotional Support and Life Satisfaction|268|drocdy3_|drocdy3_|Computed Drink-Occasions-Per-Day
+Module 22 - Emotional Support and Life Satisfaction|269|X_rfbing5|_rfbing5|Binge Drinking Calculated Variable
+Module 22 - Emotional Support and Life Satisfaction|270|X_drnkdy4|_drnkdy4|Computed Number Of Drinks Of Alcohol Beverages Per Day
+Module 22 - Emotional Support and Life Satisfaction|271|X_drnkmo4|_drnkmo4|Computed Total Number Drinks A Month
+Module 22 - Emotional Support and Life Satisfaction|272|X_rfdrhv4|_rfdrhv4|Heavy Alcohol Consumption Calculated Variable
+Module 22 - Emotional Support and Life Satisfaction|273|X_rfdrmn4|_rfdrmn4|Adult Men Heavy Alcohol Consumption Calculated Variable
+Module 22 - Emotional Support and Life Satisfaction|274|X_rfdrwm4|_rfdrwm4|Adult Women Heavy Alcohol Consumption Calculated Variable
+Module 22 - Emotional Support and Life Satisfaction|275|ftjuda1_|ftjuda1_|Computed Fruit Juice Intake In Times Per Day
+Module 22 - Emotional Support and Life Satisfaction|276|frutda1_|frutda1_|Computed Fruit Intake In Times Per Day
+Module 22 - Emotional Support and Life Satisfaction|277|beanday_|beanday_|Computed Bean Intake In Times Per Day
+Module 22 - Emotional Support and Life Satisfaction|278|grenday_|grenday_|Computed Dark Green Vegetable Intake In Times Per Day
+Module 22 - Emotional Support and Life Satisfaction|279|orngday_|orngday_|Computed Orange-Colored Vegetable Intake In Times Per Day
+Module 22 - Emotional Support and Life Satisfaction|280|vegeda1_|vegeda1_|Computed Vegetable Intake In Times Per Day
+Module 22 - Emotional Support and Life Satisfaction|281|X_misfrtn|_misfrtn|The Number Of Missing Fruit Responses
+Module 22 - Emotional Support and Life Satisfaction|282|X_misvegn|_misvegn|The Number Of Missing Vegetable Responses
+Module 22 - Emotional Support and Life Satisfaction|283|X_frtresp|_frtresp|Missing Any Fruit Responses
+Module 22 - Emotional Support and Life Satisfaction|284|X_vegresp|_vegresp|Missing Any Vegetable Responses
+Module 22 - Emotional Support and Life Satisfaction|285|X_frutsum|_frutsum|Total Fruits Consumed Per Day
+Module 22 - Emotional Support and Life Satisfaction|286|X_vegesum|_vegesum|Total Vegetables Consumed Per Day
+Module 22 - Emotional Support and Life Satisfaction|287|X_frtlt1|_frtlt1|Consume Fruit 1 Or More Times Per Day
+Module 22 - Emotional Support and Life Satisfaction|288|X_veglt1|_veglt1|Consume Vegetables 1 Or More Times Per Day
+Module 22 - Emotional Support and Life Satisfaction|289|X_frt16|_frt16|Reported Consuming Fruit >16/Day
+Module 22 - Emotional Support and Life Satisfaction|290|X_veg23|_veg23|Reported Consuming Vegetables >23/Day
+Module 22 - Emotional Support and Life Satisfaction|291|X_fruitex|_fruitex|Fruit Exclusion From Analyses
+Module 22 - Emotional Support and Life Satisfaction|292|X_vegetex|_vegetex|Vegetable Exclusion From Analyses
+Module 22 - Emotional Support and Life Satisfaction|293|X_totinda|_totinda|Leisure Time Physical Activity Calculated Variable
+Module 22 - Emotional Support and Life Satisfaction|294|metvl11_|metvl11_|Activity Met Value For First Activity
+Module 22 - Emotional Support and Life Satisfaction|295|metvl21_|metvl21_|Activity Met Value For Second Activity
+Module 22 - Emotional Support and Life Satisfaction|296|maxvo2_|maxvo2_|Estimated Age-Gender Specific Maximum Oxygen Consumption
+Module 22 - Emotional Support and Life Satisfaction|297|fc60_|fc60_|Estimated Functional Capacity
+Module 22 - Emotional Support and Life Satisfaction|298|actin11_|actin11_|Estimated Activity Intensity For First Activity
+Module 22 - Emotional Support and Life Satisfaction|299|actin21_|actin21_|Estimated Activity Intensity For Second Activity
+Module 22 - Emotional Support and Life Satisfaction|300|padur1_|padur1_|Minutes Of First Activity
+Module 22 - Emotional Support and Life Satisfaction|301|padur2_|padur2_|Minutes Of Second Activity
+Module 22 - Emotional Support and Life Satisfaction|302|pafreq1_|pafreq1_|Physical Activity Frequency Per Week For First Activity
+Module 22 - Emotional Support and Life Satisfaction|303|pafreq2_|pafreq2_|Physical Activity Frequency Per Week For Second Activity
+Module 22 - Emotional Support and Life Satisfaction|304|X_minac11|_minac11|Minutes Of Physical Activity Per Week For First Activity
+Module 22 - Emotional Support and Life Satisfaction|305|X_minac21|_minac21|Minutes Of Physical Activity Per Week For Second Activity
+Module 22 - Emotional Support and Life Satisfaction|306|strfreq_|strfreq_|Strength Activity Frequency Per Week
+Module 22 - Emotional Support and Life Satisfaction|307|pamiss1_|pamiss1_|Missing Physical Activity Data
+Module 22 - Emotional Support and Life Satisfaction|308|pamin11_|pamin11_|Minutes Of Physical Activity Per Week For First Activity
+Module 22 - Emotional Support and Life Satisfaction|309|pamin21_|pamin21_|Minutes Of Physical Activity Per Week For Second Activity
+Module 22 - Emotional Support and Life Satisfaction|310|pa1min_|pa1min_|Minutes Of Total Physical Activity Per Week
+Module 22 - Emotional Support and Life Satisfaction|311|pavig11_|pavig11_|Minutes Of Vigorous Physical Activity Per Week For First Activity
+Module 22 - Emotional Support and Life Satisfaction|312|pavig21_|pavig21_|Minutes Of Vigorousphysical Activity Per Week For Second Activity
+Module 22 - Emotional Support and Life Satisfaction|313|pa1vigm_|pa1vigm_|Minutes Of Total Vigorous Physical Activity Per Week
+Module 22 - Emotional Support and Life Satisfaction|314|X_pacat1|_pacat1|Physical Activity Categories
+Module 22 - Emotional Support and Life Satisfaction|315|X_paindx1|_paindx1|Physical Activity Index
+Module 22 - Emotional Support and Life Satisfaction|316|X_pa150r2|_pa150r2|150 Minute Physical Activity Calculated Variable
+Module 22 - Emotional Support and Life Satisfaction|317|X_pa300r2|_pa300r2|300 Minute Physical Activity Calculated Variable
+Module 22 - Emotional Support and Life Satisfaction|318|X_pa30021|_pa30021|300 Minute Physical Activity 2-Level Calculated Variable
+Module 22 - Emotional Support and Life Satisfaction|319|X_pastrng|_pastrng|Muscle Strengthening Recommendation
+Module 22 - Emotional Support and Life Satisfaction|320|X_parec1|_parec1|Aerobic And Strengthening Guideline
+Module 22 - Emotional Support and Life Satisfaction|321|X_pastae1|_pastae1|Aerobic And Strengthening (2-Level)
+Module 22 - Emotional Support and Life Satisfaction|322|X_lmtact1|_lmtact1|Limited Usual Activities
+Module 22 - Emotional Support and Life Satisfaction|323|X_lmtwrk1|_lmtwrk1|Limited Work Activities
+Module 22 - Emotional Support and Life Satisfaction|324|X_lmtscl1|_lmtscl1|Limited Social Activities
+Module 22 - Emotional Support and Life Satisfaction|325|X_rfseat2|_rfseat2|Always Or Nearly Always Wear Seat Belts
+Module 22 - Emotional Support and Life Satisfaction|326|X_rfseat3|_rfseat3|Always Wear Seat Belts
+Module 22 - Emotional Support and Life Satisfaction|327|X_flshot6|_flshot6|Flu Shot Calculated Variable
+Module 22 - Emotional Support and Life Satisfaction|328|X_pneumo2|_pneumo2|Pneumonia Vaccination Calculated Variable
+Module 22 - Emotional Support and Life Satisfaction|329|X_aidtst3|_aidtst3|Ever Been Tested For HIV Calculated Variable
+Module 22 - Emotional Support and Life Satisfaction|330|X_age80|_age80|Imputed Age Value Collapsed Above 80

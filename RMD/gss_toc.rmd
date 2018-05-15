@@ -1,0 +1,116 @@
+Section        |SubSection     |Seq|Column         |Description
+---------------|---------------|----|--------------|-----------
+2 Case Identification and Year||1|caseid|case identification number
+2 Case Identification and Year||2|year|GSS year for this respondent
+2 Respondent Background Variables||3|age|Age of respondent
+2 Respondent Background Variables||4|sex|Respondent's sex
+2 Respondent Background Variables||5|race|Race of respondent
+2 Respondent Background Variables||6|hispanic|Hispanic specified
+2 Respondent Background Variables||7|uscitzn|Is R US citizen
+2 Respondent Background Variables||8|educ|Highest year of school completed
+2 Respondent Background Variables||9|paeduc|Highest year of school completed, father
+2 Respondent Background Variables||10|maeduc|Highest year of school completed, mother
+2 Respondent Background Variables||11|speduc|Highest year of school completed, spouse
+2 Respondent Background Variables||12|degree|RS highest degree
+2 Respondent Background Variables||13|vetyears|Years in armed forces
+2 Respondent Background Variables||14|sei|Socioeconomic index
+2 Personal and Family Information||15|wrkstat|Labor force status
+2 Personal and Family Information||16|wrkslf|R self-emplyed or works for somebody
+2 Personal and Family Information||17|marital|Marital status
+2 Personal and Family Information||18|spwrksta|Spouse labor force status
+2 Personal and Family Information||19|sibs|Number of brothers and sisters
+2 Personal and Family Information||20|childs|Number of children
+2 Personal and Family Information||21|agekdbrn|RS age when 1st child born
+2 Personal and Family Information||22|incom16|Rs family income when 16 years old
+2 Personal and Family Information||23|born|Was R born in this country
+2 Personal and Family Information||24|parborn|Were RS parents born in this country
+2 Personal and Family Information||25|granborn|How many grandparents born outside US
+2 Personal and Family Information||26|income06|Total family income
+2 Personal and Family Information||27|coninc|Total family income in constant dollars
+2 Personal and Family Information||28|region|Region of interview
+2 Personal and Family Information||29|partyid|Political party affiliation
+2 Personal and Family Information||30|polviews|Think of self as liberal or conservative
+1 Attitudinal Measures - National Problems|2 Social Problem Spending|31|natspac|Space exploration program
+1 Attitudinal Measures - National Problems|2 Social Problem Spending|32|natenvir|Improving and protecting environment
+1 Attitudinal Measures - National Problems|2 Social Problem Spending|33|natheal|Improving and protecting nation's health
+1 Attitudinal Measures - National Problems|2 Social Problem Spending|34|natcity|Solving problems of big cities
+1 Attitudinal Measures - National Problems|2 Social Problem Spending|35|natcrime|Halting rising crime rate
+1 Attitudinal Measures - National Problems|2 Social Problem Spending|36|natdrug|dealing with drug addiction
+1 Attitudinal Measures - National Problems|2 Social Problem Spending|37|nateduc|Improving nation's education system
+1 Attitudinal Measures - National Problems|2 Social Problem Spending|38|natrace|Improving the conditions of blacks
+1 Attitudinal Measures - National Problems|2 Social Problem Spending|39|natarms|Military, armaments, and defense
+1 Attitudinal Measures - National Problems|2 Social Problem Spending|40|nataid|Foreign aid
+1 Attitudinal Measures - National Problems|2 Social Problem Spending|41|natfare|Welfare
+1 Attitudinal Measures - National Problems|2 Social Problem Spending|42|natroad|Highways and bridges
+1 Attitudinal Measures - National Problems|2 Social Problem Spending|43|natsoc|Social security
+1 Attitudinal Measures - National Problems|2 Social Problem Spending|44|natmass|Mass transportation
+1 Attitudinal Measures - National Problems|2 Social Problem Spending|45|natpark|Parks and recreation
+2 Personal Concerns||46|relig|RS religious preference
+2 Personal Concerns||47|attend|How often R attends religious services
+3 Societal Concerns|Confidence in Institutions|48|confinan|confidence in banks and financial institutions
+3 Societal Concerns|Confidence in Institutions|49|conbus|confidence in major companies
+3 Societal Concerns|Confidence in Institutions|50|conclerg|confidence in organized religion
+3 Societal Concerns|Confidence in Institutions|51|coneduc|confidence in education
+3 Societal Concerns|Confidence in Institutions|52|confed|confidence in executive branch of federal government
+3 Societal Concerns|Confidence in Institutions|53|conlabor|confidence in organized labor
+3 Societal Concerns|Confidence in Institutions|54|conpress|confidence in press
+3 Societal Concerns|Confidence in Institutions|55|conmedic|confidence in medicine
+3 Societal Concerns|Confidence in Institutions|56|contv|confidence in television
+3 Societal Concerns|Confidence in Institutions|57|conjudge|confidence in United States Supreme Court
+3 Societal Concerns|Confidence in Institutions|58|consci|confidence in scientific community
+3 Societal Concerns|Confidence in Institutions|59|conlegis|confidence in Congress
+3 Societal Concerns|Confidence in Institutions|60|conarmy|confidence in military
+1 Workplace and Economic Concerns|2 Job Security and Satisfaction|61|joblose|Is R likely to lose job
+1 Workplace and Economic Concerns|2 Job Security and Satisfaction|62|jobfind|Could R find equally good job
+1 Workplace and Economic Concerns|2 Job Security and Satisfaction|63|satjob|Job or housework
+1 Workplace and Economic Concerns|2 Job Security and Satisfaction|64|richwork|If rich, continue or stop working
+1 Workplace and Economic Concerns|2 Job Security and Satisfaction|65|jobinc|High income
+1 Workplace and Economic Concerns|2 Job Security and Satisfaction|66|jobsec|No danger of being fired
+1 Workplace and Economic Concerns|2 Job Security and Satisfaction|67|jobhour|Short working hours
+1 Workplace and Economic Concerns|2 Job Security and Satisfaction|68|jobpromo|chance of advancement
+1 Workplace and Economic Concerns|2 Job Security and Satisfaction|69|jobmeans|Work important and feel accomplishment
+2 Class and Financial Needs||70|class|Subjective class identification
+2 Class and Financial Needs||71|rank|RS self ranking of social position
+2 Class and Financial Needs||72|satfin|Satifaction with financial situation
+2 Class and Financial Needs||73|finalter|Change in financial situation
+2 Class and Financial Needs||74|finrela|Opinion of family income
+2 Standard of Living||75|unemp|Ever unemployed in the last 10 years
+2 Standard of Living||76|govaid|Ever recieve welfare, unemployment insurance, etc.
+2 Standard of Living||77|getaid|Ever received welfare?
+2 Standard of Living||78|union|Dores R or spouse belong to union
+2 Standard of Living||79|getahead|Opinion of how people get ahead
+2 Standard of Living||80|parsol|RS living standard compared to parents
+2 Standard of Living||81|kidssol|RS kids living standard compared to R
+1 Controversial Social Issues|2 Abortion|82|abdefect|Strong chance of serious defect
+1 Controversial Social Issues|2 Abortion|83|abnomore|Married - wants no more children
+1 Controversial Social Issues|2 Abortion|84|abhlth|Womans health seriously endangered
+1 Controversial Social Issues|2 Abortion|85|abpoor|Low income - cant afford more children
+1 Controversial Social Issues|2 Abortion|86|abrape|Pregnant as result of rape
+1 Controversial Social Issues|2 Abortion|87|absingle|Not married
+1 Controversial Social Issues|2 Abortion|88|abany|Abortion if woman wants for any reason
+2 Family Planning, Sex, and Contraception||89|pillok|Birth control to teenagers 14-16
+2 Family Planning, Sex, and Contraception||90|sexeduc|Sex education in public schools
+2 Family Planning, Sex, and Contraception||91|divlaw|Divorce laws
+2 Family Planning, Sex, and Contraception||92|premarsx|Sex before marriage
+2 Family Planning, Sex, and Contraception||93|teensex|Sex before marriage - Teens
+2 Family Planning, Sex, and Contraception||94|xmarsex|Sex with person other than spouse
+2 Family Planning, Sex, and Contraception||95|homosex|Homosexual sex relations
+2 Suicide||96|suicide1|Suicide if incurable disease
+2 Suicide||97|suicide2|Suicide if bankrupt
+2 Suicide||98|suicide3|Suicide if dishonored family
+2 Suicide||99|suicide4|Suicide if tired of living
+2 Violent Experiences||100|fear|Afraid to walk at night in neighborhood
+2 Violent Experiences||101|owngun|Have gun in home
+2 Violent Experiences||102|pistol|Pistol or revolver in home
+2 Violent Experiences||103|shotgun|Shotgun in home
+2 Violent Experiences||104|rifle|Rifle in home
+2 Meida Exposure||105|news|How often does R read newspaper
+2 Meida Exposure||106|tvhours|Hours per day watching TV
+2 Race Part Two||107|racdif1|Differences due to discrimination
+2 Race Part Two||108|racdif2|Differences due to inborn disability
+2 Race Part Two||109|racdif3|Differences due to lack of education
+2 Race Part Two||110|racdif4|Differences due to lack of will
+1 Obligations and Responsibilities|2 Government Responsibility|111|helppoor|Should govt improve standard of living
+1 Obligations and Responsibilities|2 Government Responsibility|112|helpnot|Should govt do more or less?
+1 Obligations and Responsibilities|2 Government Responsibility|113|helpsick|Should govt help pay for medical care
+1 Obligations and Responsibilities|2 Government Responsibility|114|helpblk|Should govt aid blacks?

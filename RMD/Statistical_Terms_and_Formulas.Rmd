@@ -1,0 +1,47 @@
+---
+title: "Statistical Formulas, Functions, and Terms"
+author: "Sophie Yang"
+date: "March 21, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## 
+Distribution<br>functions| Population/Sample statistic<br>function description|95% CL |critical value|p-test<br>two-tailed<br>area
+------------|------------------------|-------------------|--------------|------------
+$\chi^2$          |$\chi^2 = \sum_{i=1}^2 \frac{(observed\ count - expected)^2}{expected\ count}$                  |                   |              |
+$N(\mu,\sigma)$   | $Z = \frac{x - \mu}{\sigma}\\Z=\frac{x - \bar{x}}{s}$| | |
+$t(t_{value},df)$ |
+
+function          |Return                                      | example
+------------------|--------------------------------------------|------------------------|-------------------------------------
+pnorm()           |Returns the area/probability below a z-value| pnorm(1.96) = 0.9750021|   |2*(1-pnorm(1.96))=<br>.04999579
+qnorm()           |Returns the critical z-value in lower tail  |qnorm(.05)=-1.644854|qnorm(1-.05/2)=<br>1.959964|
+pt()              |Returns the area/probability below a $t_{value}$ with degrees of freedom = df|pt(2.5,25)=0.9903284||2*(1-pt(2.5,25))=.01934313|
+qt()              |Returns the critical t-value in lower tail  |qt(.05,25)=-1.708141|qt(1-.05/2,25)=2.059539
+
+
+
+
+Term                   |Definition
+-----------------------|----------------------------------------------------------------------
+Block design           |A method used for designing an experiment where subjects are divided into subgroups called blocks such that the variability within blocks is less than the variability between blocks.  Then, subjects within each block are randomly assigned to treatment conditions.
+Central Limit Theorem, informal description| If a sample consists of at least 30 independent observations and the data are not strongly skewed, then the distribution of the sample mean is well approximated by a normal model.
+Conditions for $\bar{x}$ being nearly normal and SE being accurate|Important conditions to help ensure the sampling distribution of $\bar{x}$ is nearly normal and the estimate of SE sufficiently accurate:  <br>1.  The sample observations are independent.<br>2.  The sample size is large: $n \ge 30$<br>3.  The population distribution is not strongly skewed.  This condition can be difficult to evaluate, just use your best judgement.  Additionally, the larger the sample size, the more lenient we can be with the sample's skew.
+Confidence interval for any confidence level|If the point estimate, pe, follows the normal model with standard error SE, then a confidence interfal for the population parameter is $pe \pm z^**SE = pe \pm z^* *\frac{\bar{s}}{\sqrt{n}}$ where $z^*$ corresponds to the confidence level selected.
+Critical Value                            |The critical value is a factor used to compute the margin of error.  1.  Compute alpha (α): α = 1 - (confidence level / 100)  2.  Find the critical probability (p*): p* = 1 - α/2  3.  To express the critical value as a z-score, find the z-score having a cumulative probability equal to the critical probability (p*).  To express the critical value as a t statistic, a.  Find the degrees of freedom (df). Often, df is equal to the sample size minus one.  b.  The critical t statistic (t*) is the t statistic having degrees of freedom equal to df and a cumulative probability equal to the critical probability (p*).
+Margin of error                           | $z^**SE = z^* *\frac{\bar{s}}{\sqrt{n}}$
+Negative binomial distribution| The negative binomial distribution describes the probability of observing the $k^{th}$ success on the $n^{th}$ trial: $(the\ k^{th}\ success\ on\ the \ n^{th} \ trial) = \dbinom{n-1}{k-1} = \frac{{_{n-1}}P{_{k-1}}}{r!}$
+Normal approximation of the binomial distribution| The binomial distribution with probability of success p is nearly normal when the sample size n is sufficiently large that $np$ and $n(1-p)$ are both at least 10. The approximate normal distribution has parameters corresponding to the mean and standard deviation of the binomial distribution: $\mu = np \\ \sigma = \sqrt{np(1-p)}$
+Null and alternative hypotheses|The null hypothesis $H_0$ often represents either a skeptical perspective or a claim to be tested. The alternative hypothesis $H_A$ represents an alternative claim under consideration and is often represented by a range of possible parameter values.
+p-value                                   |The p-value is the probability of observing data at least as favorable to the alternative hypothesis as our current data set, if the null hypothesis is true. We typically use a summary statistic of the data, in this chapter the sample mean, to help compute the p-value and evaluate the hypotheses.
+p-value as a tool in hypothesis testing   |The smaller the p-value, the stronger the data favor $H_A$ over $H_0$. A small p-value (usually < 0.05) corresponds to sucient evidence to reject $H_0$ in favor of $H_A$
+power of statistical significance         |A test's power is the proability of rejecting a false null hypothesis when it is false.  .  Statistical power is inversely related to beta or the probability of making a Type II error.  In short, power = 1 - $\beta$.
+sampling distribution                     |The sampling distribution represents the distribution of the point estimates based on samples of a fixed size from a certain population.  It is useful to think of a particular point estimate as being drawn from such a distribution.  Understanding the concept of a sampling distribution is central to understanding statistical inference.
+SE for the sample mean                    | Given n independent observations from a population with standard deviation , the standard error of the sample mean is equal to $SE = \frac{\sigma}{\sqrt{n}}$  A reliable method to ensure sample observations are independent is to conduct a simple random sample consisting of less than 10% of the population.
+Standard error of an estimate|The standard deviation associated with an estimate is called the standard error. It describes the typical error or uncertainty associated with the estimate.
+The Z-score                               | The Z-score of an observation is the number of standard deviations it falls above or below the mean. We compute the Z-score for an observation x that follows a distribution with mean \mu and standard deviation using
+$$Z=\frac{x-\mu}{\sigma}$$
