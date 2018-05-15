@@ -48,16 +48,41 @@ navbarPage("OS3"
                                      ) # mainPanel
                                  ) # sidebarLayout
                        ) # tabPanel
+                       # ,tabPanel('Central Limit Theorem'
+                       #           ,sidebarLayout(
+                       #               sidebarPanel('CLT SideBar')
+                       #               ,mainPanel(tabsetPanel(tabPanel('CLT Tab1',tableOutput('CLT_OUT1'))
+                       #                                      ,tabPanel('CLT Tab2',tableOutput('CLT_Out2'))
+                       #                                      ) # tabsetPanel
+                       #                          ,'https://gallery.shinyapps.io/CLT_mean'
+                       #                          ) # mainPanel
+                       #               ) # sidebarLayout
+                       # ) # tabPanel
                        ,tabPanel('Central Limit Theorem'
                                  ,sidebarLayout(
-                                     sidebarPanel('CLT SideBar')
-                                     ,mainPanel(tabsetPanel(tabPanel('CLT Tab1',tableOutput('CLT_OUT1'))
-                                                            ,tabPanel('CLT Tab2',tableOutput('CLT_Out2'))
-                                                            ) # tabsetPanel
-                                                ,'https://gallery.shinyapps.io/CLT_mean'
-                                                ) # mainPanel
-                                     ) # sidebarLayout
+                                     sidebarPanel(fluidRow(column(3,numericInput("mean", "Mean"   , 0, min = -100, max = 100))
+                                                           ,column(3,numericInput("mu"  , "Std Dev", 1, min = 0, max = 100))
+                                                           ,column(3,numericInput("samples", "Samples",25, min = 0, max = 10000))
+                                                           ,column(3,numericInput("sample_size", "Size", 100, min = 1, max = 10000))
+                                     )
+                                     ,fluidRow(column(3,uiOutput("mean.of.means"))
+                                               ,column(3,uiOutput("sd.of.means"))
+                                               ,column(6,'blank')
+                                     )
+                                     ,fluidRow(column(12,numericInput('seed','Seed Value',1234,min=1,max=5000)))
+                                     ) # sidebarPanel
+                                     ,mainPanel(tabsetPanel( tabPanel('Plots'
+                                                                      ,'WIP Main Panel'
+                                                                      ,plotOutput("pop.dist")
+                                                                      ,plotOutput("sample.dist")
+                                     )
+                                     ,tabPanel('Sample Data',tableOutput('pop.table'))
+                                     ) # tabsetPanel
+                                     
+                                     ) # mainPanel
+                                 ) # sidebarLayout
                        ) # tabPanel
+                       
            ) # navbarMenu
 
            ,navbarMenu('Decision Trees' # Display PNG Files
@@ -78,29 +103,30 @@ navbarPage("OS3"
                        #,tabPanel('RMD r blocks not hidden', includeMarkdown(here('rmd','Statistical_Test_FlowCharts.Rmd')))
                        ,"tabPanel('Statistical Tests',includeHTML(here('html','Statistical_Test_FlowCharts.html'))) HANGS"
            )
-           ,navbarMenu('Wip' #
-                       ,tabPanel('Wip Panel'
-                                 ,sidebarLayout(
-                                     sidebarPanel(fluidRow(column(3,numericInput("mean", "Mean"   , 0, min = -100, max = 100))
-                                                          ,column(3,numericInput("mu"  , "Std Dev", 1, min = 0, max = 100))
-                                                          ,column(6,'blank')
-                                                          )
-                                                 ,fluidRow(column(3,numericInput("samples", "Samples",25, min = 0, max = 10000))
-                                                          ,column(3,numericInput("sample_size", "Size", 100, min = 1, max = 10000))
-                                                          ,column(6,'blank')
-                                                          )
-                                                 ,fluidRow(column(12,numericInput('seed','Seed Value',1234,min=1,max=5000)))
-                                                ) # sidebarPanel
-                                     ,mainPanel(tabsetPanel( tabPanel('Wip Tab1'
-                                                                     ,'WIP Main Panel'
-                                                                     ,plotOutput("pop.dist")
-                                                                     )
-                                                            ,tabPanel('Wip Tab2',tableOutput('Wip_Out2'))
-                                                            ) # tabsetPanel
-
-                                                ) # mainPanel
-                                 ) # sidebarLayout
-                       ) # tabPanel
-           ) # navbarMenu
-          ,modNavbarMenuUI('test')
+           # ,navbarMenu('Wip' #
+           #             ,tabPanel('Wip Panel'
+           #                       ,sidebarLayout(
+           #                           sidebarPanel(fluidRow(column(3,numericInput("mean", "Mean"   , 0, min = -100, max = 100))
+           #                                                ,column(3,numericInput("mu"  , "Std Dev", 1, min = 0, max = 100))
+           #                                                ,column(3,numericInput("samples", "Samples",25, min = 0, max = 10000))
+           #                                                ,column(3,numericInput("sample_size", "Size", 100, min = 1, max = 10000))
+           #                                                )
+           #                                       ,fluidRow(column(3,uiOutput("mean.of.means"))
+           #                                                ,column(3,uiOutput("sd.of.means"))
+           #                                                ,column(6,'blank')
+           #                                                )
+           #                                       ,fluidRow(column(12,numericInput('seed','Seed Value',1234,min=1,max=5000)))
+           #                                      ) # sidebarPanel
+           #                           ,mainPanel(tabsetPanel( tabPanel('Plots'
+           #                                                           ,'WIP Main Panel'
+           #                                                           ,plotOutput("pop.dist")
+           #                                                           ,plotOutput("sample.dist")
+           #                                                           )
+           #                                                  ,tabPanel('Sample Data',tableOutput('pop.table'))
+           #                                                  ) # tabsetPanel
+           # 
+           #                                      ) # mainPanel
+           #                       ) # sidebarLayout
+           #             ) # tabPanel
+           # ) # navbarMenu
 ) #end of navbarPage
